@@ -8,12 +8,15 @@ echo "║  Código da Equipe - 6 TERMINAIS                         ║"
 echo "╚═══════════════════════════════════════════════════════════╝"
 echo ""
 
+# Obter diretório do script
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 # Verificar se o workspace foi compilado
-if [ ! -f ~/robotics_ws/install/setup.bash ]; then
+if [ ! -f "$SCRIPT_DIR/install/setup.bash" ]; then
     echo "❌ ERRO: Workspace não compilado!"
     echo ""
     echo "Execute primeiro:"
-    echo "  cd ~/robotics_ws"
+    echo "  cd $SCRIPT_DIR"
     echo "  colcon build"
     echo ""
     exit 1
@@ -24,7 +27,7 @@ echo ""
 
 # Terminal 1: Robot Description
 gnome-terminal --title="1-Robot Description" --geometry=80x24+0+0 -- bash -c "
-    source ~/robotics_ws/install/setup.bash
+    source \"$SCRIPT_DIR/install/setup.bash\"
     echo '═══════════════════════════════════════════════════'
     echo '🤖 TERMINAL 1/6: Descrição do Robô'
     echo '═══════════════════════════════════════════════════'
@@ -37,7 +40,7 @@ sleep 2
 
 # Terminal 2: Gazebo Simulation
 gnome-terminal --title="2-Gazebo Simulation" --geometry=80x24+700+0 -- bash -c "
-    source ~/robotics_ws/install/setup.bash
+    source \"$SCRIPT_DIR/install/setup.bash\"
     echo '═══════════════════════════════════════════════════'
     echo '🌍 TERMINAL 2/6: Simulação Gazebo'
     echo '═══════════════════════════════════════════════════'
@@ -51,7 +54,7 @@ sleep 6
 
 # Terminal 3: EKF
 gnome-terminal --title="3-EKF Filter" --geometry=80x24+0+350 -- bash -c "
-    source ~/robotics_ws/install/setup.bash
+    source \"$SCRIPT_DIR/install/setup.bash\"
     echo '═══════════════════════════════════════════════════'
     echo '📊 TERMINAL 3/6: Filtro EKF'
     echo '═══════════════════════════════════════════════════'
@@ -64,7 +67,7 @@ sleep 3
 
 # Terminal 4: AMCL Localization
 gnome-terminal --title="4-AMCL Localization" --geometry=80x24+700+350 -- bash -c "
-    source ~/robotics_ws/install/setup.bash
+    source \"$SCRIPT_DIR/install/setup.bash\"
     echo '═══════════════════════════════════════════════════'
     echo '📍 TERMINAL 4/6: AMCL + Map Server'
     echo '═══════════════════════════════════════════════════'
@@ -84,7 +87,7 @@ sleep 8
 
 # Terminal 5: RViz Localization
 gnome-terminal --title="5-RViz Localization" --geometry=80x24+0+700 -- bash -c "
-    source ~/robotics_ws/install/setup.bash
+    source \"$SCRIPT_DIR/install/setup.bash\"
     echo '═══════════════════════════════════════════════════'
     echo '👁️  TERMINAL 5/6: RViz (Localização)'
     echo '═══════════════════════════════════════════════════'
@@ -112,7 +115,7 @@ sleep 4
 
 # Terminal 6: Teleop
 gnome-terminal --title="6-Teleop [TESTE A LOCALIZAÇÃO]" --geometry=90x30+350+200 -- bash -c "
-    source ~/robotics_ws/install/setup.bash
+    source \"$SCRIPT_DIR/install/setup.bash\"
     echo '═══════════════════════════════════════════════════════════'
     echo '🎮 TERMINAL 6/6: Controle do Robô (TELEOP)'
     echo '═══════════════════════════════════════════════════════════'

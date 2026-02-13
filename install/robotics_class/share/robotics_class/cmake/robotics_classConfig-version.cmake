@@ -1,1 +1,0 @@
-/home/gab/robotics_ws/build/robotics_class/ament_cmake_core/robotics_classConfig-version.cmake

@@ -1,6 +1,0 @@
-Invoking command in '/home/gab/robotics_ws/build/robotics_class': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gab/robotics_ws/src/robotics_class -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gab/robotics_ws/install/robotics_class
-Invoked command in '/home/gab/robotics_ws/build/robotics_class' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gab/robotics_ws/src/robotics_class -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gab/robotics_ws/install/robotics_class
-Invoking command in '/home/gab/robotics_ws/build/robotics_class': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gab/robotics_ws/build/robotics_class -- -j8 -l8
-Invoked command in '/home/gab/robotics_ws/build/robotics_class' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gab/robotics_ws/build/robotics_class -- -j8 -l8
-Invoking command in '/home/gab/robotics_ws/build/robotics_class': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gab/robotics_ws/build/robotics_class
-Invoked command in '/home/gab/robotics_ws/build/robotics_class' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gab/robotics_ws/build/robotics_class
