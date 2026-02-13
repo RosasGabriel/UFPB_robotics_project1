@@ -1,0 +1,53 @@
+{
+    // ROS 2 específico
+    "ros.distro": "humble",
+    "ros.rosSetupScript": "/opt/ros/humble/setup.bash",
+
+    // Python
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "${workspaceFolder}/install/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "${workspaceFolder}/install/lib/python3.10/site-packages"
+    ],
+
+    // C++
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.includePath": [
+        "/opt/ros/humble/include/**",
+        "${workspaceFolder}/install/include/**",
+        "${workspaceFolder}/src/**"
+    ],
+
+    // Editor
+    "editor.formatOnSave": false,
+    "editor.rulers": [80, 100],
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    // Terminal
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.env.linux": {
+        "ROS_DISTRO": "humble"
+    },
+
+    // Files to exclude from explorer
+    "files.exclude": {
+        "**/.git": true,
+        "**/build": true,
+        "**/install": true,
+        "**/log": true
+    },
+
+    // Files to exclude from search
+    "search.exclude": {
+        "**/build": true,
+        "**/install": true,
+        "**/log": true
+    }
+}

@@ -1,0 +1,152 @@
+[0.011s] Invoking command in '/home/gab/robotics_ws/build/robotics_class': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gab/robotics_ws/src/robotics_class -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gab/robotics_ws/install/robotics_class
+[0.073s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.179s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.204s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.271s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.273s] -- Added test 'lint_cmake' to check CMake code style
+[0.274s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.280s] -- Added test 'xmllint' to check XML markup files
+[0.282s] -- Configuring done
+[0.291s] -- Generating done
+[0.293s] -- Build files have been written to: /home/gab/robotics_ws/build/robotics_class
+[0.297s] Invoked command in '/home/gab/robotics_ws/build/robotics_class' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gab/robotics_ws/src/robotics_class -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gab/robotics_ws/install/robotics_class
+[0.298s] Invoking command in '/home/gab/robotics_ws/build/robotics_class': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gab/robotics_ws/build/robotics_class -- -j8 -l8
+[0.332s] Invoked command in '/home/gab/robotics_ws/build/robotics_class' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gab/robotics_ws/build/robotics_class -- -j8 -l8
+[0.340s] Invoking command in '/home/gab/robotics_ws/build/robotics_class': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gab/robotics_ws/build/robotics_class
+[0.346s] -- Install configuration: ""
+[0.346s] -- Execute custom install script
+[0.346s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/launch/ekf.launch.py
+[0.353s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/launch/localization.launch.py
+[0.361s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/launch/robot_description.launch.py
+[0.368s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/launch/rviz.launch.py
+[0.375s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/launch/simulation_world.launch.py
+[0.381s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/launch/slam.launch.py
+[0.388s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/urdf/depth_camera.urdf.xacro
+[0.394s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/urdf/imu.urdf.xacro
+[0.400s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/urdf/inertial_matrix.xacro
+[0.407s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/urdf/jetauto.xacro
+[0.413s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/urdf/jetauto_car.urdf.xacro
+[0.419s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/urdf/lidar.urdf.xacro
+[0.425s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/urdf/materials.xacro
+[0.432s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/urdf/p3d_plugin.gazebo.xacro
+[0.439s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/base_arena/model.config
+[0.445s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/base_arena/model.sdf
+[0.452s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/bed/bed_model.stl
+[0.458s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/bed/model.config
+[0.464s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/bed/model.sdf
+[0.471s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/chair_1/materials/scripts/chair_1_cushion.material
+[0.477s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/chair_1/materials/scripts/chair_1_frame.material
+[0.483s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/fabric_1.jpg
+[0.490s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/wood_black.jpg
+[0.496s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/wood_black_1.jpg
+[0.503s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/wood_black_3.png
+[0.509s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/chair_1/meshes/cushions.dae
+[0.516s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/chair_1/meshes/frame.dae
+[0.522s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/chair_1/meshes/model.dae
+[0.529s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/chair_1/model.config
+[0.535s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/chair_1/model.sdf
+[0.541s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/scripts/coffee_table_set_1_frame.material
+[0.547s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/scripts/coffee_table_set_1_surf.material
+[0.553s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/textures/leather.jpg
+[0.559s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/textures/wood_dark_1.jpg
+[0.565s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/model.dae
+[0.572s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_frame.dae
+[0.579s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_full.dae
+[0.586s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_mid.dae
+[0.592s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_top.dae
+[0.599s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/tables.dae
+[0.605s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/coffee_table_set_1/model.config
+[0.611s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/coffee_table_set_1/model.sdf
+[0.617s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/file_cabinet_small/materials/scripts/file_black.material
+[0.624s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/file_cabinet_small/materials/textures/metal_black_2.jpg
+[0.631s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/file_cabinet_small/meshes/model.dae
+[0.638s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/file_cabinet_small/model.config
+[0.644s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/file_cabinet_small/model.sdf
+[0.650s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/back_shell_link.stl
+[0.656s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/base_link.stl
+[0.662s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/base_link_collision.stl
+[0.669s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/depth_camera_link.stl
+[0.675s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/depth_camera_link_collision.stl
+[0.681s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/lidar_link.stl
+[0.687s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/mic_link.stl
+[0.694s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/screen_link.stl
+[0.701s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/screen_link_collision.stl
+[0.707s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/speaker_link.stl
+[0.713s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/wheel_left_back_link.stl
+[0.719s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/wheel_left_front_link.stl
+[0.726s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/wheel_right_back_link.stl
+[0.732s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/jetauto/wheel_right_front_link.stl
+[0.739s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/kitchen_chair/meshes/base.dae
+[0.745s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/kitchen_chair/meshes/seat.dae
+[0.751s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/kitchen_chair/model.config
+[0.758s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/kitchen_chair/model.sdf
+[0.764s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/person/model.config
+[0.770s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/person/model.sdf
+[0.777s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/person/walk.dae
+[0.785s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/plant_1_single/meshes/leaf.dae
+[0.792s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/plant_1_single/model.config
+[0.799s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/plant_1_single/model.sdf
+[0.805s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/refrigerator/model.config
+[0.811s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/refrigerator/model.sdf
+[0.817s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/refrigerator/refrigerator.stl
+[0.824s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sink/model.config
+[0.830s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sink/model.sdf
+[0.836s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sink/sink.stl
+[0.843s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sofa_set_1/materials/scripts/sofa_set_1.material
+[0.849s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sofa_set_1/materials/textures/fabric_black.jpg
+[0.857s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/model.dae
+[0.864s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions.dae
+[0.870s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions_back.dae
+[0.876s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions_bot.dae
+[0.882s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions_sides.dae
+[0.889s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_frame.dae
+[0.895s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_full.dae
+[0.901s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sofa_set_1/model.config
+[0.908s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/sofa_set_1/model.sdf
+[0.914s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/stove/model.config
+[0.920s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/stove/model.sdf
+[0.926s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/stove/stove.stl
+[0.932s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/table/model.config
+[0.939s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/table/model.sdf
+[0.945s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/table_breakfast/meshes/table3.dae
+[0.952s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/table_breakfast/model.config
+[0.958s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/table_breakfast/model.sdf
+[0.965s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/table_dining/materials/scripts/dining_table.material
+[0.971s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/table_dining/materials/textures/wood_black.jpg
+[0.977s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/table_dining/materials/textures/wood_black_1.jpg
+[0.984s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/table_dining/materials/textures/wood_black_3.png
+[0.991s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/table_dining/meshes/table2.dae
+[0.997s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/table_dining/model.config
+[1.003s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/table_dining/model.sdf
+[1.011s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/tv/model.config
+[1.017s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/tv/model.sdf
+[1.023s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/tv/tv.dae
+[1.030s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/vase_small/materials/scripts/vase_pattern1.material
+[1.036s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/vase_small/materials/textures/bronze.jpg
+[1.043s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/vase_small/meshes/vase2.dae
+[1.050s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/vase_small/model.config
+[1.056s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/models/vase_small/model.sdf
+[1.063s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/rviz/localization_view.rviz
+[1.070s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/rviz/view.rviz
+[1.077s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/worlds/arena_1.world
+[1.083s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/params/default.yaml
+[1.089s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/params/ekf.yaml
+[1.095s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/maps/class_map.pgm
+[1.102s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/maps/class_map.yaml
+[1.108s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/maps/details.txt
+[1.115s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/ament_index/resource_index/package_run_dependencies/robotics_class
+[1.121s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/ament_index/resource_index/parent_prefix_path/robotics_class
+[1.128s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/environment/ament_prefix_path.sh
+[1.134s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/environment/ament_prefix_path.dsv
+[1.141s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/environment/path.sh
+[1.147s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/environment/path.dsv
+[1.153s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/local_setup.bash
+[1.160s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/local_setup.sh
+[1.166s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/local_setup.zsh
+[1.172s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/local_setup.dsv
+[1.179s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/package.dsv
+[1.184s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/ament_index/resource_index/packages/robotics_class
+[1.191s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/cmake/robotics_classConfig.cmake
+[1.197s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/cmake/robotics_classConfig-version.cmake
+[1.203s] -- Symlinking: /home/gab/robotics_ws/install/robotics_class/share/robotics_class/package.xml
+[1.211s] Invoked command in '/home/gab/robotics_ws/build/robotics_class' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gab/robotics_ws/build/robotics_class

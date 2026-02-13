@@ -1,0 +1,52 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "colcon: build",
+            "type": "shell",
+            "command": "source /opt/ros/humble/setup.bash && colcon build --symlink-install",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Build all packages in the workspace"
+        },
+        {
+            "label": "colcon: build --packages-select",
+            "type": "shell",
+            "command": "source /opt/ros/humble/setup.bash && colcon build --packages-select ${input:package}",
+            "problemMatcher": [],
+            "detail": "Build a specific package"
+        },
+        {
+            "label": "colcon: test",
+            "type": "shell",
+            "command": "source /opt/ros/humble/setup.bash && colcon test && colcon test-result",
+            "problemMatcher": [],
+            "detail": "Run all tests"
+        },
+        {
+            "label": "colcon: clean",
+            "type": "shell",
+            "command": "rm -rf build install log",
+            "problemMatcher": [],
+            "detail": "Clean build, install, and log directories"
+        },
+        {
+            "label": "source workspace",
+            "type": "shell",
+            "command": "source install/setup.bash",
+            "problemMatcher": [],
+            "detail": "Source the workspace overlay"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "package",
+            "type": "promptString",
+            "description": "Package name",
+            "default": "robotics_class"
+        }
+    ]
+}

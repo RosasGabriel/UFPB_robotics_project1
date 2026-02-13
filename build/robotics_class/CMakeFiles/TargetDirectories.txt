@@ -1,0 +1,9 @@
+/home/gab/robotics_ws/build/robotics_class/CMakeFiles/uninstall.dir
+/home/gab/robotics_ws/build/robotics_class/CMakeFiles/robotics_class_uninstall.dir
+/home/gab/robotics_ws/build/robotics_class/CMakeFiles/test.dir
+/home/gab/robotics_ws/build/robotics_class/CMakeFiles/edit_cache.dir
+/home/gab/robotics_ws/build/robotics_class/CMakeFiles/rebuild_cache.dir
+/home/gab/robotics_ws/build/robotics_class/CMakeFiles/list_install_components.dir
+/home/gab/robotics_ws/build/robotics_class/CMakeFiles/install.dir
+/home/gab/robotics_ws/build/robotics_class/CMakeFiles/install/local.dir
+/home/gab/robotics_ws/build/robotics_class/CMakeFiles/install/strip.dir
